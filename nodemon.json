@@ -1,0 +1,7 @@
+{
+    "watch": ["src", "server"],
+    "ext": ".tsx, .ts",
+    "ignore": ["node_modules", "dist"],
+    "exec": "tsc && npx webpack && node server/server.js",
+    "verbose": true
+  }
